@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+
+
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+.main3 {
+     height: 100%;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.leftside3 {
+     height: 100vh;
+     width: 40vw;
+     background: #01ffa9;
+}
+
+.rightside3 {
+     height: 100vh;
+     width: 60vw;
+     background: white;
+}
+
+.midbox3 {
+     height: 90vh;
+     width: 80vw;
+     background: #01ffa9;
+     box-shadow: 0 0 1em #00000063;
+     position: absolute;
+     display: flex;
+}
+
+.leftbox3 {
+     height: 100%;
+     width: 32vw;
+     background: #01ffa9;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.loginimg3 {
+     height: 400px;
+     width: 400px;
+}
+
+.loginimg3 img {
+     width: 100%;
+}
+
+.rightbox3 {
+     height: 100%;
+     width: 48vw;
+     background: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.midrightbox3 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.logintext3 h1 {
+     text-align: center;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 900;
+     font-size: 3rem;
+     margin-bottom: 30px;
+}
+
+.logininputs3 {
+     display: flex;
+     flex-direction: column;
+}
+
+.logininputs3 .inputlogin3 {
+     width: 18rem;
+     height: 2rem;
+     padding: 0.5rem;
+     margin-top: 5px;
+     margin-bottom: 15px;
+     border: 0;
+     border-bottom: 2px solid black;
+     font-family: 'Poppins', sans-serif;
+}
+
+.logininputs3 label {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+     cursor: pointer;
+     display: flex;
+     flex-direction: column;
+}
+
+.logininputs3 input[type="submit"] {
+     background: #01ffa9;
+     height: 2.5rem;
+     width: 18rem;
+     border: 0;
+     border-radius: 5px;
+     cursor: pointer;
+     color: black;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+     font-size: 1rem;
+     margin-top: 15px;
+     margin-bottom: 15px;
+}
+
+.logininputs3 input[type="submit"]:hover {
+     background-color: #10e09b;
+}
+
+.loginalternatives3 {
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+     height: 100%;
+}
+
+.loginalternatives3 a {
+     font-size: 0.8rem;
+     margin-top: 10px;
+     text-decoration: none;
+     color: black;
+     border-bottom: 1px solid #01ffa9;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 900;
+}
